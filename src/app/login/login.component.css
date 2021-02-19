@@ -1,0 +1,14 @@
+.error{
+    border-left: 3px red solid;
+}
+.form-control.shadow-danger:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(255,68,68,.25);
+}
+.success{
+    border-left:3px green solid;
+}
+.form-control.shadow-success:focus {
+    border-color: green;
+    box-shadow: 0 0 0 0.2rem rgba(141, 216, 171, 0.25);
+}
