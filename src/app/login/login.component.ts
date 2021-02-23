@@ -22,12 +22,12 @@ export class LoginComponent implements OnInit {
     });
   }
   onLoginSubmit() {
-    if(this.loginForm.valid)
-    console.log(this.loginForm.value);
+    if(this.loginForm.valid){
     const email = this.loginForm.value.email;
     const password = this.loginForm.value.password;
     this.store.dispatch(loginStart({email,password}));
-
+    }
+    
 
   }
 
