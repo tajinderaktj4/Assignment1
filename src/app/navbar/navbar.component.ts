@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { LoginState } from '../login/state/login.state';
-import { isAuthenticated } from '../login/state/login.selector';
+import { LoginState } from '../state/login.state';
+import { isAuthenticated } from '../selectors/login.selector';
 
 @Component({
   selector: 'app-navbar',
